@@ -1,4 +1,4 @@
-# System Monitoring Tool
+# System Monitoring Tool for UNIX systems
 by Muhammad Shaaf Yousaf
 
 This program is written in C language and it displays **UNIX** system information in real time using graphs.
