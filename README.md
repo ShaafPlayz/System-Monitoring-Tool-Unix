@@ -2,6 +2,7 @@
 by Muhammad Shaaf Yousaf
 
 This program is written in C language and it displays **UNIX** system information in real time using graphs.
+![image](https://github.com/user-attachments/assets/4c78568f-c61b-46e7-a205-5b3922d52061)
 
 With this program, you can view the following system information:
 - Memory Usage (in GB)
