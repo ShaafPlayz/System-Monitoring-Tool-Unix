@@ -1,5 +1,25 @@
 # System Monitoring Tool for UNIX systems
-![image](https://github.com/user-attachments/assets/4c78568f-c61b-46e7-a205-5b3922d52061)
+<img width=500 src="https://github.com/user-attachments/assets/4c78568f-c61b-46e7-a205-5b3922d52061">
+
+
+## How to use?
+- Compile the code, use the following command in a **UNIX** terminal:
+```
+gcc system_monitory_tool_shaaf.c --std=c99 -o myMonitoringTool
+```
+- Run the Program, use the following command in a **UNIX** terminal: (This runs the program using its DEFAULT settings)
+```
+./myMonitoringTool
+ ```
+- You can use multiple command line arguments to change how the program runs:
+``` 
+./myMonitoringTool  [samples [tdelay]] [--memory] [--cpu] [--cores] [--samples=N] [--tdelay=T]
+```
+
+More information about: [Commands Breakdown](#commands)
+
+
+## Insights into Mechanics
 This program is written in C language and it displays **UNIX** system information in real time using graphs.
 With this program, you can view the following system information:
 - Memory Usage (in GB)
@@ -15,17 +35,7 @@ This program reads data from the following UNIX files:
 The graphs in the terminal are all updated using **ANSI** escape sequences.
 You need to have a terminal that supports **ANSI** escape sequences, and access to a **UNIX** system, and **GCC** (or any alternative C compiler).
 
-## Code Compilation
-To compile the code, use the following command in a **UNIX** terminal:
-- "gcc system_monitory_tool_shaaf.c --std=c99 -o myMonitoringTool" 
-
-## Code Usage
-To Run the Program, use the following command in a **UNIX** terminal:
-- "./myMonitoringTool" (This runs the program using its DEFAULT settings)
-
-You can add multiple command line arguments to change how the program runs:
-- "./myMonitoringTool  [samples [tdelay]] [--memory] [--cpu] [--cores] [--samples=N] [--tdelay=T]"
-
+## Commands
 You have access to the following command line arguments (Flags) that the program accepts:
 - "--cpu" (Displays CPU Utilization Graph in %)
 - "--memory" (Displays Memory Usage Graph in GB)
