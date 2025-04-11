@@ -1,4 +1,4 @@
-# System Monitoring Tool for UNIX systems
+# System Monitoring Tool for UNIX based systems
 <img width=500 src="https://github.com/user-attachments/assets/4c78568f-c61b-46e7-a205-5b3922d52061">
 
 
