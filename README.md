@@ -35,7 +35,7 @@ gcc system_monitory_tool_shaaf.c --std=c99 -o myMonitoringTool
  ```
 - You can use multiple command line arguments to change how the program runs:
 ``` 
-./myMonitoringTool  [samples [tdelay]] [--memory] [--cpu] [--cores] [--samples=N] [--tdelay=T]
+./myMonitoringTool  [nsam [ninterval]] [--umem] [--ucpu] [--ucores] [--nsam=N] [--ninterval=T]
 ```
 
 More information about: [Commands Breakdown](#commands)
