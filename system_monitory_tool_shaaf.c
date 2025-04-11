@@ -305,7 +305,7 @@ int main(int argc, char **argv) {
     // arguments. Any extra/unknown commands by the user are ignored for
     // ease of user experience. (it gets annoying when you mistype something)
     while(i < argc && argc > 0) {
-        if(strncmp("--samples=", argv[i], 10) == 0) {
+        if(strncmp("--nsamples=", argv[i], 10) == 0) {
             if(pos_arg == false) {
                 strtok(argv[i], "=");
             
@@ -316,7 +316,7 @@ int main(int argc, char **argv) {
         } 
             
         }
-        if(strncmp("--tdelay=", argv[i], 9) == 0) {
+        if(strncmp("--ninterval=", argv[i], 9) == 0) {
             if(pos_arg == false) {
                 strtok(argv[i], "=");
                 
@@ -327,13 +327,13 @@ int main(int argc, char **argv) {
             }
             
         }
-        if(strcmp("--memory", argv[i]) == 0) {
+        if(strcmp("--umem", argv[i]) == 0) {
             mem = true;
         }
-        if(strcmp("--cpu", argv[i]) == 0) {
+        if(strcmp("--ucpu", argv[i]) == 0) {
             cpu = true;
         }
-        if(strcmp("--cores", argv[i]) == 0) {
+        if(strcmp("--ucores", argv[i]) == 0) {
             cores = true;
         }
         i++;
