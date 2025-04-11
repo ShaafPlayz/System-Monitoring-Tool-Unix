@@ -19,9 +19,9 @@ You have access to the following command line arguments (Flags) that the program
 ## Example Usage of Commands
 Take as example:**./myMonitoringTool 50 600000 --ucpu --ninterval=100**
 
-Note that "50" is read as the number of samples, "600000" is read as tdelay in microseconds, and the extra "--tdelay=100" command is ignored.
+Note that "50" is read as the number of samples, "600000" is read as tdelay in microseconds, and the extra "--ninterval=100" command is ignored.
 
-We also observe the "--cpu" command, this indicates that the program will now only display the CPU graph.
+We also observe the "--ucpu" command, this indicates that the program will now only display the CPU graph.
 
 
 ## How to use?
