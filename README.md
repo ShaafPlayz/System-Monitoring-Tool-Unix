@@ -17,7 +17,7 @@ You have access to the following command line arguments (Flags) that the program
 **Number of samples and tdelay are also accepted in the format: "./myMonitoringTool [N [T]]"**
 
 ## Example Usage of Commands
-Take as example:**./myMonitoringTool 50 600000 --cpu --tdelay=100**
+Take as example:**./myMonitoringTool 50 600000 --ucpu --ninterval=100**
 
 Note that "50" is read as the number of samples, "600000" is read as tdelay in microseconds, and the extra "--tdelay=100" command is ignored.
 
