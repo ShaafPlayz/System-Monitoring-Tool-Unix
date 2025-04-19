@@ -28,7 +28,7 @@ The program sees "--ucpu" command above, this indicates that the program will no
 
 In the arugments provided above, the program will ignore the gibrish and run the the recognized commands within them (eg: ```--umem```).
 
-## *Instructions on Usage*
+## *Instructions on Compiling*
 Using the makefile, we can compile the code using ```make``` command in the terminal.\
 We can also use ```make run``` to run our program, but this would cause our signals to not work as expected.\
 We can also use ```make clean``` to delete all files produced by make including the executable.\
