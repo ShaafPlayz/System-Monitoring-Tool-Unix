@@ -1,4 +1,4 @@
-# System Monitoring Tool with Concurrency
+# Hawkeye - System Monitoring Tool with Concurrency
 
 ## *Supported Commands*
 The program accepts the following command-line arguments:
