@@ -1,5 +1,5 @@
 # Hawkeye - System Monitoring Tool with Concurrency
-
+<img width=500 src="https://github.com/user-attachments/assets/4c78568f-c61b-46e7-a205-5b3922d52061">
 ## *Supported Commands*
 The program accepts the following command-line arguments:
 
